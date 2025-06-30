@@ -1,0 +1,7 @@
+# //eops_strategies/simple_dca_strategy/requirements.txt
+# This file lists the Python dependencies for this specific strategy project.
+# The `worker.py` in the Docker container will need to install these.
+
+eops>=0.1.0   # Assuming the version you published is 0.1.0 or higher
+requests      # For making REST API calls in our custom exchange handler
+websockets    # For connecting to the WebSocket endpoint in our custom updater
